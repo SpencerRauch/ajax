@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Fetcher</title>
+</head>
+<body>
+    <form onsubmit="getPoke(event)">
+        <label for="pokeName">Name:</label>
+        <input type="text" name="pokeName" id="pokeName">
+        <button>Fetch!</button>
+    </form>
+    <div id="pokeResult"></div>
+    <button id="randPoke" onclick="randPoke()">Get Random!</button>
+    <script src="script.js"></script>
+</body>
+</html>
